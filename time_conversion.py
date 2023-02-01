@@ -21,10 +21,6 @@ def timeConversion(s):
             return(s)            
 
         
-def main ():
-
+if __name__ == '__main__':
     s = input('\nEnter the time in format hh:mm:ssAM/PM\n')
     print(timeConversion(s))
-
-
-main()
